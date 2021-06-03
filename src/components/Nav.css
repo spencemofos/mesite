@@ -65,8 +65,8 @@
   position: absolute;
   top: calc(50% - 0.2rem);
   right: 1rem;
-  border-bottom: 2px solid var(--darkGrey);
-  border-right: 2px solid var(--darkGrey);
+  border-bottom: 2px solid var(--primary);
+  border-right: 2px solid var(--primary);
   display: block;
   height: 0.8rem;
   width: 0.8rem;
@@ -79,7 +79,6 @@
   top: 100%;
   left: 0;
   width: auto;
-  background: white;
   /* opacity: 0; */
   max-height: 0;
   overflow: hidden;
@@ -112,6 +111,10 @@
     display: block !important;
     margin-left: auto;
     z-index: 1;
+  }
+
+  .Nav--MenuButton {
+    color: #fff;
   }
   .Nav .Logo {
     z-index: 1;
