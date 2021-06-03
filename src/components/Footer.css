@@ -1,10 +1,10 @@
 .footer {
   padding: 2rem 0;
-  background: var(--lightGrey);
+  background: #130B49;
   font-size: 1.2rem;
 }
 
 .footer a {
-  color: black;
+  color: #ffffff;
   text-decoration: none;
 }
