@@ -72,7 +72,8 @@ export class Navigation extends Component {
           </Link>
           <div className="Nav--Links">
             <NavLink to="/">Home</NavLink>
-            <NavLink to="/components/">Components</NavLink>
+            <NavLink to="/about/">About</NavLink>
+            <NavLink to="/components/">Services</NavLink>
             <NavLink to="/contact/">Contact</NavLink>
           </div>
           <button
